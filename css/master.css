@@ -2,10 +2,15 @@
 body{
     background-color: #EFEAD8;
     font-family: 'Balsamiq Sans';
-    
+}
+h1, h3{
+   color: #354259;
 }
 
 
+
+
+/* Navbar */
 
 .navbar{
     padding-bottom: 6rem;
@@ -15,14 +20,17 @@ body{
     font-size: xx-large;
 
 }
-h1{
-    font-family: 'Balsamiq Sans';
+
+
+
+/* First-section */
+.title-heading{
     line-height: 1.5;
-    color: #354259;
     font-size: 3rem;
 }
-
-
+.title-caption{
+    line-height: 1.3;
+}
 
 .code-logo{
     margin-right: 0.4rem;
@@ -31,15 +39,6 @@ h1{
     
 }
 
-
-
-
-
-
-h3{
-    line-height: 1.3;
-    color: #354259;
-}
 .main{
     padding: 3% 15%;
     width: 100%; 
@@ -79,6 +78,12 @@ a:hover{
   padding: 0.7rem 2rem;
   /* display: flex; */
 }
+
+
+
+
+
+/* Media Query */
 @media (max-width: 992px){
     
     h1{
